@@ -1,4 +1,10 @@
 
+import { Icon } from '@mui/material';
+import HouseIcon from '@mui/icons-material/House';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
+import StarOutlineIcon from '@mui/icons-material/StarOutline';
 
 
 
@@ -20,21 +26,20 @@ function Firstbox() {
       <p> Moses Henuhho Peter</p>
       </div>
 
-        <h3 className="first-box-icon"><span className="target"> Software Engineer</span>
+       <h3 className="first-box-icon"><BusinessCenterIcon  className="fa-icon briefcase"/> <span className="target">Software Engineer</span>
         </h3>
-        <p className="first-box-icon">
-        Lagos Nigeria
+        <p className="first-box-icon"><HouseIcon className="fa-icon home"/>Lagos Nigeria
         </p>
-        <p className="first-box-icon">
+        <p className="first-box-icon"><EmailIcon className="fa-icon envelope"/>
            mohemos@gmail.com
         </p>
-        <p className="first-box-icon">
+        <p className="first-box-icon"><PhoneIcon className="fa-icon phone"/>
       +234 8039092522
         </p>
         <hr style={{margin:"20px"}}/>
 
         <div className="backendSkills">
-          <h2> <span className="target"> Backend Skills</span></h2>
+          <h2> <span className="target"><StarOutlineIcon className="fa-icon asterisk"/> Backend Skills</span></h2>
 
           <p> Data structure & Algorithm, System Analysis & Design</p>
           <progress className="progressbar" id="file" value="95" max="100" />

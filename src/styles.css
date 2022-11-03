@@ -12,16 +12,11 @@ body{
   margin: 0 auto;
   font-size: 15px;
   width: 98%;
-  
-  
- 
 }
 
 .flex-container{
     display: block;
-    margin: 3%;
-    
-   
+    margin: 3%;   
 }
   
  
@@ -96,7 +91,7 @@ margin: 0px -3% 0px -3%;
     margin-top: 1.8%;
   }
   .quote .seek{
-font-size: 3rem;
+font-size: 1rem;
   }
 
   .cite {
@@ -417,14 +412,14 @@ font-size: 3rem;
   }
 
   .button {
-   
+
     border: none;
     border-radius: 30px;
     padding: 5px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 37px;
+    font-size: 20px;
     cursor: pointer;
     margin: 0.5%;
     margin-bottom: 4%;
