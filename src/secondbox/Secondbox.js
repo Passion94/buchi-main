@@ -8,11 +8,11 @@ function Secondbox() {
   return ( 
     
     <div className="second-box">
-    
+    <div className="second-box-phaseone">
     <Quote/>
        <Topprojects />
-       <Nimbly /> 
-       <div className="Education-container"> </div>
+       <Nimbly/>
+       </div>
       <AfterNimbly />
     
     </div>

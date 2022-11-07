@@ -1,25 +1,27 @@
 
-
+import WorkIcon from '@mui/icons-material/Work';
+import InvertColorsIcon from '@mui/icons-material/InvertColors';
+import OpacityTwoToneIcon from '@mui/icons-material/OpacityTwoTone';
 
 function Topprojects() {
     return (
       <div className="top-projects">
 
-        <h1>Top 5 Latest Projects </h1>
+        <h2 id='top-five'><WorkIcon className="fa-icon suitcase" fontSize='50px'/>Top 5 Latest Projects </h2>
   <div className="topprojectone">
   <div>
-        <p className="h2"><strong> Senior NodejS Engineer| NGCareers</strong>
-        </p>
+        <h5 className="topproject-header"><b> Senior NodejS Engineer| NGCareers</b>
+        </h5>
 
-        <p className="micro">Microservices developed</p>
+        <p className="micro"><OpacityTwoToneIcon  className="fa-icon tint" fontSize='sm' />Microservices developed</p>
 
         <ul>
-          <li> Job listing / management service </li>
-          <li> Notification Service </li>
-          <li> User Authentication & Authorization Service </li>
-          <li> Billing Service </li>
-          <li> Report Service </li>
-          <li> Email Service </li>
+          <li className='project-list'> Job listing / management service </li>
+          <li className="project-list"> Notification Service </li>
+          <li className="project-list"> User Authentication & Authorization Service </li>
+          <li className="project-list"> Billing Service </li>
+          <li className="project-list"> Report Service </li>
+          <li className="project-list"> Email Service </li>
         </ul>
   </div>
 
@@ -50,19 +52,19 @@ function Topprojects() {
 
   <div className="topprojecttwo">
         <div>
-          <h2 className="h2">Full stack Web Developer | CBT.NG</h2>
-          <p className="micro"> Top Features </p>
+          <h2 className="topproject-header">Full stack Web Developer | CBT.NG</h2>
+          <p className="micro"><OpacityTwoToneIcon  className="fa-icon tint" fontSize='sm'/>Top Features </p>
 
           <ul>
-            <li> Hyper secure User management system </li>
-            <li> Fully REST API </li>
-            <li> Multi-Player Gaming functionality, used for multi-user CBT Collaborative exam </li>
-            <li> API Integration to external websites and mobile Applications</li>
-            <li> Real-time Mock League table update</li>
-            <li> Subscription and Payment</li>
-            <li> Voucher generation & printing</li>
-            <li> Android & iOS App</li>
-            <li> Windows & Mac OS App</li>
+            <li className="project-list"project-list> Hyper secure User management system </li>
+            <li className="project-list"> Fully REST API </li>
+            <li className="project-list"> Multi-Player Gaming functionality, used for multi-user CBT Collaborative exam </li>
+            <li className="project-list"> API Integration to external websites and mobile Applications</li>
+            <li className="project-list"> Real-time Mock League table update</li>
+            <li className="project-list"> Subscription and Payment</li>
+            <li className="project-list"> Voucher generation & printing</li>
+            <li className="project-list"> Android & iOS App</li>
+            <li className="project-list"> Windows & Mac OS App</li>
           </ul>
         </div>
 
@@ -101,13 +103,13 @@ function Topprojects() {
   <hr/>
         <div className="topprojectthree">
         <div>
-          <h2 className="h2"> Team Member (Backend) | myrewin </h2>
-          <p className="micro"> Top Task Done</p>
+          <h2 className="topproject-header"> Team Member (Backend) | myrewin </h2>
+          <h6 className="micro"><OpacityTwoToneIcon  className="fa-icon tint" fontSize='sm' />Top Task Done</h6>
           <ul>
-            <li> Real-time Voice enabled quoting system </li>
-            <li> Real-time User Quote background customization </li>
-            <li> Online meetup / Live group chat </li>
-            <li> Upcoming Date count down & Meetup autostart</li>
+            <li className="project-list"> Real-time Voice enabled quoting system </li>
+            <li className="project-list"> Real-time User Quote background customization </li>
+            <li className="project-list"> Online meetup / Live group chat </li>
+            <li className="project-list"> Upcoming Date count down & Meetup autostart</li>
           </ul>
         </div>
   <div className="all-buttons">
@@ -129,7 +131,7 @@ function Topprojects() {
         <button className= "button html5">HTML5</button>
         </span>
         <span className="two">
-        <button className= "button wcss bootstrap">Bootstrap 3</button>
+        <button className= "button wcss bootstrap" id='lastbootbut'>Bootstrap 3</button>
         </span>
 
         <button className= "hmjvp"> HTML5 media & Javascript voice <span id="process"> processing </span>
@@ -141,15 +143,15 @@ function Topprojects() {
 
         <div className="topprojectfour">
         <div>
-          <h2 className="h2">Software Developer (Backend) | csmtschools.com.ng</h2>
-          <p className="micro">  Top Task Done </p>
+          <h2 className="topproject-header">Software Developer (Backend) | csmtschools.com.ng</h2>
+          <h6 className="micro"><OpacityTwoToneIcon  className="fa-icon tint" fontSize='sm'/>Top Task Done </h6>
           <ul>
-            <li> Student management system</li>
-            <li> Graph / Chart data representation display</li>
-            <li> Student performance tracker</li>
-            <li> High speed student report generator</li>
-            <li> Academic session, Classroom management system</li>
-            <li> Attendance, subject management system</li>
+            <li className="project-list"> Student management system</li>
+            <li className="project-list"> Graph / Chart data representation display</li>
+            <li className="project-list"> Student performance tracker</li>
+            <li className="project-list"> High speed student report generator</li>
+            <li className="project-list"> Academic session, Classroom management system</li>
+            <li className="project-list"> Attendance, subject management system</li>
           </ul>
         </div>
         <div className="all-buttons">
@@ -178,14 +180,14 @@ function Topprojects() {
 
         <div className="topprojectfive">
         <div>
-          <h2 className="h2"> Software Developer, Afridemics.com</h2>
-          <p className="micro">Top Features</p>
+          <h2 className="topproject-header"> Software Developer, Afridemics.com</h2>
+          <h6 className="micro"><OpacityTwoToneIcon  className="fa-icon tint" fontSize='sm'/>Top Features</h6>
           <ul>
-            <li> Higher Institution Registration & Programming linking </li>
-            <li> Institution private customized admin panel</li>
-            <li> School listing and Ranking</li>
-            <li> Search Engine Optimization</li>
-            <li> Multi-Language Translation</li>
+            <li className="project-list"> Higher Institution Registration & Programming linking </li>
+            <li className="project-list"> Institution private customized admin panel</li>
+            <li className="project-list"> School listing and Ranking</li>
+            <li className="project-list"> Search Engine Optimization</li>
+            <li className="project-list"> Multi-Language Translation</li>
           </ul>
         </div>
         <div className="all-buttons">
@@ -215,14 +217,14 @@ function Topprojects() {
 
         <div className="topprojectsix">
         <div>
-          <h2 className="h2">Software Developer (FUll stack) | Organization management System (Enteprise Edition)</h2>
-          <p className="micro">  Top Features</p>
+          <h2 className="topproject-header">Software Developer (FUll stack) | Organization management System (Enteprise Edition)</h2>
+          <h6 className="micro"><OpacityTwoToneIcon  className="fa-icon tint" fontSize='sm' />Top Features</h6>
           <ul>
-            <li> Employee management</li>
-            <li> Task management</li>
-            <li> Product management</li>
-            <li> Services management</li>
-            <li> Loss and Gain prediction</li>
+            <li className="project-list"> Employee management</li>
+            <li className="project-list"> Task management</li>
+            <li className="project-list"> Product management</li>
+            <li className="project-list"> Services management</li>
+            <li className="project-list"> Loss and Gain prediction</li>
           </ul>
         </div>
         <div className="all-buttons">

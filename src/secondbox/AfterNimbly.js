@@ -1,4 +1,5 @@
-
+import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
+import Brightness6TwoToneIcon from '@mui/icons-material/Brightness6TwoTone';
 
 
 function AfterNimbly() {
@@ -6,49 +7,48 @@ function AfterNimbly() {
 
       <div className="after-nimbly">
 
-        <h1><span id="education"> Education</span> </h1>
+        <h2 id='education'><Brightness6TwoToneIcon className="fa-icon certificate" fontSize='36px'/> Education </h2>
         <div className="bachelor">
-        <h2> Bachelor's Degree | Accra Institute of Technology, Ghana</h2>
+        <h5 className='topproject-header'> Bachelor's Degree | Accra Institute of Technology, Ghana</h5>
 
-        <p className="micro"> 2013- 2016 </p>
+        <p className="micro"><CalendarMonthOutlinedIcon className="fa-icon calender"/>2013- 2016 </p>
 
-        <h4 > Overall Best Graduating Student award </h4>
+        <h4 className='overall' > Overall Best Graduating Student award </h4>
 
         <ul>
-          <li> First-Class Degree in Computer Science </li>
-          <li> Data Structure & Algorithm </li>
-          <li> Artificial Intelligence, Machine Learning & Expert System</li>
-          <li> Computer Vision </li>
-          <li> Computer Graphics & Animation </li>
-          <li> Worked as Web-Developer at School IT Department </li>
-          <li> Developed summer class management system </li>
-          <li> Championed Official School website Re-Development</li>
+          <li className="project-list"> First-Class Degree in Computer Science </li>
+          <li className="project-list"> Data Structure & Algorithm </li>
+          <li className="project-list"> Artificial Intelligence, Machine Learning & Expert System</li>
+          <li className="project-list"> Computer Vision </li>
+          <li className="project-list"> Computer Graphics & Animation </li>
+          <li className="project-list"> Worked as Web-Developer at School IT Department </li>
+          <li className="project-list"> Developed summer class management system </li>
+          <li className="project-list"> Championed Official School website Re-Development</li>
         </ul>
         </div>
         <hr/>
         <div className="diploma">
-          <h2> Diploma | Highland College of Technology, Nigeria</h2>
-          <p className="micro"> 2010-2012 </p>
+          <h5 className='topproject-header'> Diploma | Highland College of Technology, Nigeria</h5>
+          <p className="micro"><CalendarMonthOutlinedIcon className="fa-icon calender"fontSize='20px'/>2010-2012 </p>
           <ul>
-            <li> Upper Credit in Software Engineering </li>
-            <li>Took classes in C++, Java, PHP, Database(SQL Sever, Mysql),Virtual Basic </li>
-            <li> Developed eLibrary system </li>
-            <li> Developed JAMB Exam CBT System </li>
+            <li className="project-list"> Upper Credit in Software Engineering </li>
+            <li className="project-list">Took classes in C++, Java, PHP, Database(SQL Sever, Mysql),Virtual Basic </li>
+            <li className="project-list"> Developed eLibrary system </li>
+            <li className="project-list"> Developed JAMB Exam CBT System </li>
           </ul>
         </div> {/* End of diploma */}
         <hr/>
         <div className="machine-learning">
-          <h1> Machine Learning | Coursera</h1>
-          <p className="micro">
-         2016
+          <h5 className='topproject-header'> Machine Learning | Coursera</h5>
+          <p className="micro"><CalendarMonthOutlinedIcon className="fa-icon calender"/>2016
           </p>
-          <p> AI & Machine Learning </p>
+          <p className="last"> AI & Machine Learning </p>
         </div> {/* End of machine-learning */}
 
         <div className="system-security">
-          <h2> System Security | ISACA</h2>
-          <p className="micro fa-calender">  2015</p>
-          <p> System Security Awareness</p>
+          <h5 className='topproject-header'> System Security | ISACA</h5>
+          <p className="micro "> <CalendarMonthOutlinedIcon className="fa-icon calender"/> 2015</p>
+          <p className="last"> System Security Awareness</p>
         </div> {/* End of system-security */}
 
       </div>
