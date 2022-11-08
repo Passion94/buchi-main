@@ -13,20 +13,22 @@ import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined
 
 function Firstbox() {
   return (<div className="data-container">
+  <div>
     <img
         className="mosespicture"
         src="https://mosespeter.com/image/moses-peter.jpg"
         alt="Mosespicture"
-
       />
+<div id="name">
+      <p> Moses Hennuho Peter</p>
+      </div>
+</div>
    <div className="first-box ">
 
 
 
 
-      <div id="name">
-      <p> Moses Henuhho Peter</p>
-      </div>
+      
 
        <p className="first-box-icon software"><BusinessCenterIcon  className="fa-icon briefcase " fontSize='22px'/><strong> Software Engineer</strong></p>
         <p className="first-box-icon"><HouseIcon className="fa-icon home" fontSize='22px'/>Lagos Nigeria
