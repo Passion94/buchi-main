@@ -758,7 +758,7 @@ progress::-webkit-progress-bar {
 }
 
 .topproject-header{
- padding-left: 45px;
+ padding-left: 30px;
   font-size: 18px;
   opacity: 0.9;
   margin-bottom: 10px;
@@ -782,18 +782,17 @@ progress::-webkit-progress-bar {
   font-weight: normal;
   margin: 0px;
   display: flex;
+  padding-left: 13px;
  
 }
 .top-projects ul{
   color: black;
   font-family: "Roboto", sans-serif;
-  margin-left: 20px;
+  margin-left: 34px;
   margin-bottom: 15px;
   padding-bottom: 20px;
 }
-.project-list{
-  padding-right: 45px;
-}
+
 
 
 .tint{
@@ -816,7 +815,7 @@ progress::-webkit-progress-bar {
   margin-bottom: 1%;
   }
 .all-buttons{
-  padding-left: 35px;
+  padding-left: 45px;
   padding-right: 10px;
   margin-bottom: 20px;
 }
@@ -897,10 +896,6 @@ progress::-webkit-progress-bar {
   width: 38%;
   margin-left: 45px;
   text-align: center;
-}
-
-.project-list{
-  padding-left: 5px;
 }
 
  }
