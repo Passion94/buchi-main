@@ -539,8 +539,15 @@ progress::-webkit-progress-bar {
     font-weight: normal; 
     width: 80%;
     margin-left: 25px;
-    text-align: center;
-  }
+    text-align: center;}
+
+    .fa{
+      color: white;
+      padding-right: 3px;
+      
+     
+    }
+  
   
 
   @media screen and (min-width: 1024px) {
