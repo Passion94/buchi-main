@@ -53,9 +53,9 @@ body{
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 290px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 65px;
+  bottom: -15px;
+ padding: 0px;
   opacity: 0.8;
   
 }
@@ -543,7 +543,7 @@ progress::-webkit-progress-bar {
   }
   
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 1024px) {
 
     .main-container{
       
@@ -567,9 +567,9 @@ progress::-webkit-progress-bar {
     }
     
  .second-box{
-  flex-grow: 1;
+  flex-grow: 5;
   margin-right: 15px;
-  flex-grow: 1;
+  
   
  }
     .second-box-phaseone{
@@ -597,20 +597,6 @@ progress::-webkit-progress-bar {
     
     
     
-    #name p{
-      background-color: black;
-      font-size: 30px;
-      font-weight: 400px;
-      color: white;
-      text-align: center;
-      position: absolute;
-      width: 100%;
-      top: 336px;
-      left: 0px;
-      height: 45px;
-    
-      opacity: 0.8;
-    }
     
    
     .fa-icon{
@@ -636,11 +622,7 @@ progress::-webkit-progress-bar {
     }
    
     
-    .First-box-paragraph{
-      padding: 0px;
-      font-size: 15px;
-      
-    }
+   
     
     hr{
       color: lightgray;
@@ -723,12 +705,7 @@ progress::-webkit-progress-bar {
       border-radius: 20px;
     }
  
- .first-box-icon{
-  font-size: 15px;
-  margin: 0px;
-  padding: 0px;
- 
- }
+
  
  
  .quote{
@@ -738,18 +715,20 @@ progress::-webkit-progress-bar {
   font-family: serif;
   font-size: 24px;
   font-weight: normal;
-  margin: 1.9%;
+  margin:0% 0% 1% 1.9%;
   color: black;
-  width: 800px;
+  width: 90%;
   padding: 0px;
   padding-top: 2px;
   padding-left: 20px;
   margin-top: 15px;
+  padding-right: 15px;
   
 }
 .seek{
   padding: 0px 0px 0px 0px;
   padding: 0px;
+  margin-right: 40px;
   
 }
 .cite{
@@ -907,6 +886,23 @@ progress::-webkit-progress-bar {
    padding-left: 50px;
  }
  
+
+ .overall{
+  background-color: #f44336;
+  padding: 0px;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: normal; 
+  width: 38%;
+  margin-left: 45px;
+  text-align: center;
+}
+
+.project-list{
+  padding-left: 5px;
+}
+
  }
  
   

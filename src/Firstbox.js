@@ -13,14 +13,14 @@ import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined
 
 function Firstbox() {
   return (<div className="data-container">
-  <div>
+  <div style={{position:"relative"}}>
     <img
         className="mosespicture"
         src="https://mosespeter.com/image/moses-peter.jpg"
         alt="Mosespicture"
       />
-<div id="name">
-      <p> Moses Hennuho Peter</p>
+      <div id="name">
+        <p> Moses Hennuho Peter</p>
       </div>
 </div>
    <div className="first-box ">
